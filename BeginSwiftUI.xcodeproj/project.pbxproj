@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841C84782B7AC85C003DA4CC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C84772B7AC85C003DA4CC /* CardView.swift */; };
+		848EC3192B7ACB5300C933C4 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848EC3182B7ACB5300C933C4 /* BannerView.swift */; };
 		84A020D52B73E82C0019017D /* BeginSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A020D42B73E82C0019017D /* BeginSwiftUIApp.swift */; };
 		84A020D72B73E82C0019017D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A020D62B73E82C0019017D /* ContentView.swift */; };
 		84A020D92B73E8300019017D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A020D82B73E8300019017D /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		841C84772B7AC85C003DA4CC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		848EC3182B7ACB5300C933C4 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 		84A020D12B73E82C0019017D /* BeginSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeginSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A020D42B73E82C0019017D /* BeginSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginSwiftUIApp.swift; sourceTree = "<group>"; };
 		84A020D62B73E82C0019017D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 				84A020D62B73E82C0019017D /* ContentView.swift */,
 				84A020D82B73E8300019017D /* Assets.xcassets */,
 				84A020DA2B73E8300019017D /* Preview Content */,
+				841C84772B7AC85C003DA4CC /* CardView.swift */,
+				848EC3182B7ACB5300C933C4 /* BannerView.swift */,
 			);
 			path = BeginSwiftUI;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848EC3192B7ACB5300C933C4 /* BannerView.swift in Sources */,
 				84A020D72B73E82C0019017D /* ContentView.swift in Sources */,
+				841C84782B7AC85C003DA4CC /* CardView.swift in Sources */,
 				84A020D52B73E82C0019017D /* BeginSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
