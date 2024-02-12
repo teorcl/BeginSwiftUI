@@ -10,8 +10,12 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-            PrincipalView()
-            BannerView()
+            //PrincipalView()
+            //BannerView()
+            //VerticalStack()
+            //GroupView()
+            //ZStackView()
+            CaptionWithZStack()
         }
     }
 }
